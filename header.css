@@ -1,0 +1,88 @@
+.header{
+  display: flex; 
+  flex-direction: row; 
+  position: fixed; 
+  background-color: lightgrey; 
+  top: 0;
+  left: 0; 
+  right: 0; 
+  height: 70px; 
+  z-index: 2; 
+  border-bottom: 1px solid darkgrey; 
+}
+
+
+.beats-container,
+.previous-work-container,
+.cart-container,
+.daw-container{
+  border-right-style: solid; 
+  border-width: 2px; 
+  font-family: 'VT323', sans-serif;
+  font-size: 40px; 
+  width: 100%; 
+  padding-top: 10px; 
+  text-align: center; 
+  align-items: center; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  cursor: pointer; 
+  border-color: black; 
+  color: black; 
+  text-decoration: none; 
+
+}
+
+.cart-container{
+  border-right-color: transparent; 
+}
+
+.beats-container:hover,
+.previous-work-container:hover,
+.cart-container:hover,
+.daw-container:hover{
+  background-color: darkgrey; 
+}
+
+
+.cart-container{
+  display: flex; 
+  justify-content: center; 
+  padding-bottom: 20px; 
+}
+
+.cart-icon{
+  width: 50px; 
+  margin-right: 11px; 
+}
+
+.text-cart{
+  margin-left: 11px; 
+}
+
+@media (max-width: 857px){
+  .beats-container,
+  .previous-work-container,
+  .cart-container,
+  .daw-container{
+    font-size: 5vw; 
+    overflow: visible; 
+    white-space: normal; 
+  }
+}
+
+
+@media (max-width: 1070px){
+  .beats-container,
+  .previous-work-container,
+  .cart-container,
+  .daw-container{
+    font-size: 30px; 
+  }
+}
+
+
+body{
+  padding-top: 90px; 
+  margin: 0; 
+}

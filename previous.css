@@ -1,0 +1,37 @@
+.christmas{
+  font-size: 50px;
+  font-weight: bold; 
+  text-align: center; 
+  padding-bottom: 20px; 
+  padding-top: 10px; 
+}
+
+.christmas,
+.name-for-beat-container{
+  font-family: 'VT323', sans-serif; 
+}
+.video-showcase{
+  background-color: rgb(149, 218, 149);
+}
+
+.one-beat{
+  padding-left: 100px; 
+  padding-right: 100px;
+}
+
+.name-for-beat-container{
+  font-size: 25px; 
+  padding-right: 20px; 
+}
+
+.name-for-beat{
+  font-weight: bold; 
+  font-size: 50px; 
+  line-height: 50px; 
+}
+
+@media (max-width: 1150px){
+  .name-for-beat-container{
+    text-align: center !important; 
+  }
+}

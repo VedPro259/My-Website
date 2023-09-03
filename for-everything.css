@@ -1,0 +1,249 @@
+.title{
+  font-size: 60px;  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  margin-bottom: 0; 
+}
+
+.title,
+.autobiography,
+.beats-header,
+.search-box,
+.audio-information,
+.bottom,
+.tooltip{
+  font-family: 'VT323', sans-serif; 
+}
+
+.autobiography{
+  font-size: 24px; 
+  display: flex; 
+  padding-left: 200px; 
+  padding-right: 200px; 
+  align-items: center;
+
+}
+
+.big-question{
+  font-size: 40px; 
+  margin-bottom: 15px; 
+}
+
+.description{
+  margin-top: 0px;
+  text-align: left;   
+}
+
+.q-and-a{
+  margin-right: 75px; 
+  margin-top: -29px; 
+}
+
+.baljeet{
+  height: 490px; 
+  width: 300px; 
+  object-fit: cover; 
+  object-position: bottom; 
+  border-radius: 10px; 
+  box-shadow: 5px 5px 10px rgba(0,0,0,.32);
+  position: relative; 
+  z-index: 1; 
+}
+
+.main{
+  background-color: rgb(149, 218, 149); 
+  padding-bottom: 30px;
+  
+}
+
+.beats-header{ 
+  height: 100px; 
+  margin-top: 20px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 60px; 
+}
+
+.search-bar{
+  margin-top: 20px; 
+  padding-top: 15px; 
+  text-align: right; 
+}
+
+.search-box{
+  font-size: 21px; 
+  width: 225px; 
+}
+
+.search-icon{
+  width: 29px; 
+  vertical-align: top; 
+  margin-right: 10px; 
+}
+
+.palmtree{
+  height: 175px;
+  display: flex; 
+  margin-top: -22px;  
+}
+
+.palmtree-border{
+  display: inline-block; 
+  
+}
+
+.second-palm-tree-border{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);  
+}
+
+.vrodox{
+  text-align: center; 
+  white-space: nowrap; 
+}
+
+.palm-tree{
+  height: 150px; 
+}
+
+.search-and-music{
+  background-color: rgb(149, 218, 149);
+}
+
+.one-beat{
+  display: flex; 
+  justify-content: space-between;  
+  align-items: center;
+  border-bottom: 2px solid darkolivegreen; 
+  padding-top: 15px; 
+  padding-bottom: 11px; 
+  margin-bottom: 10px;  
+}
+
+.audio-information{
+  font-size: 25px; 
+  width: 400px; 
+  text-align: right; 
+  padding-right: 20px; 
+}
+
+.sample{
+  transition: 0.15s;
+  text-decoration: none; 
+  cursor: pointer; 
+}
+
+.sample:hover{
+  opacity: 0.65; 
+}
+
+.beat-name{
+  font-weight: bold; 
+  font-size: 50px;
+  line-height: 1px;  
+}
+
+.add-to-cart{
+  width: 85px; 
+  height: 70px; 
+  cursor: pointer; 
+
+}
+
+.add-to-cart:hover{
+  opacity: 0.8; 
+}
+
+.add-to-cart:active{
+  opacity: 0.6; 
+}
+
+.add-on-container{
+  width: 400px; 
+  padding-left: 20px; 
+  display: flex; 
+  position: relative; 
+}
+
+.youtube-video{
+  width: 321px;
+  height: 168.8px;
+
+}
+
+.bottom-title{
+  font-size: 30px; 
+  text-align: center; 
+  padding-top: 20px; 
+}
+
+.bottom-info{
+  font-size: 21px; 
+  line-height: 5px; 
+  display: flex; 
+  justify-content: space-between; 
+  padding-left: 40px; 
+  padding-right: 40px; 
+}
+
+.tooltip{
+  font-size: 17.5px; 
+  background-color: rgb(37, 37, 37); 
+  color: white; 
+  padding: 5px 5px 5px 5px; 
+  border-radius: 6px; 
+  position: absolute; 
+  bottom: -35px; 
+  opacity: 0; 
+  pointer-events: none; 
+}
+
+.tooltip-activate:hover .tooltip{
+  opacity: 1; 
+}
+
+.bottom-info{
+  line-height: 20px; 
+}
+
+@media (max-width: 1150px){
+  .autobiography{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-right: 80px; 
+    overflow: hidden;
+    justify-content: center; 
+  }
+  
+  .one-beat{
+    display: flex; 
+    flex-direction: column-reverse; 
+    
+  }
+
+  .audio-information{
+    padding-right: 0; 
+    text-align-last: center; 
+  }
+
+  .add-on-container{
+    justify-content: center; 
+    padding-left: 0; 
+    padding-top: 10px; 
+  }
+
+  .add-to-cart{
+    margin-left: -39px; 
+  }
+
+  .bottom-info{
+    flex-direction: column; 
+    padding-bottom: 40px; 
+  }
+
+  .tooltip{
+    margin-left: -32px; 
+  }
+}
+
