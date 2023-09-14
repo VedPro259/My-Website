@@ -1,5 +1,5 @@
 .christmas{
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold; 
   text-align: center; 
   padding-bottom: 20px; 
@@ -8,7 +8,7 @@
 
 .christmas,
 .name-for-beat-container{
-  font-family: 'VT323', sans-serif; 
+  font-family: 'Chivo Mono', sans-serif; 
 }
 
 .video-showcase{
@@ -21,13 +21,13 @@
 }
 
 .name-for-beat-container{
-  font-size: 25px; 
+  font-size: 20px; 
   padding-right: 20px; 
 }
 
 .name-for-beat{
   font-weight: bold; 
-  font-size: 50px; 
+  font-size: 45px; 
   line-height: 50px; 
 }
 

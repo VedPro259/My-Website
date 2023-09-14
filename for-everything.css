@@ -12,7 +12,7 @@
 .audio-information,
 .bottom,
 .tooltip{
-  font-family: 'VT323', sans-serif; 
+  font-family: 'Chivo Mono', sans-serif; 
 }
 
 .autobiography{
@@ -100,7 +100,6 @@
 
 .vrodox{
   text-align: center; 
-  white-space: nowrap; 
 }
 
 .palm-tree{
@@ -122,10 +121,10 @@
 }
 
 .audio-information{
-  font-size: 25px; 
-  width: 400px; 
+  font-size: 25px;
   text-align: right; 
   padding-right: 20px; 
+  width: 450px; 
 }
 
 .sample{
@@ -141,7 +140,6 @@
 .beat-name{
   font-weight: bold; 
   font-size: 50px;
-  line-height: 1px;  
 }
 
 .add-to-cart{
@@ -212,7 +210,6 @@
     display: grid;
     grid-template-columns: 1fr;
     padding-right: 80px; 
-    overflow: hidden;
     justify-content: center; 
   }
   
@@ -223,8 +220,8 @@
   }
 
   .audio-information{
+    text-align: center; 
     padding-right: 0; 
-    text-align-last: center; 
   }
 
   .add-on-container{

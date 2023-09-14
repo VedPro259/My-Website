@@ -18,8 +18,8 @@
 .daw-container{
   border-right-style: solid; 
   border-width: 2px; 
-  font-family: 'VT323', sans-serif;
-  font-size: 40px; 
+  font-family: 'Chivo Mono', sans-serif;
+  font-size: 30px; 
   width: 100%; 
   padding-top: 10px; 
   text-align: center; 
@@ -60,29 +60,24 @@
   margin-left: 11px; 
 }
 
+body{
+  padding-top: 90px; 
+  margin: 0; 
+}
+
 @media (max-width: 857px){
   .beats-container,
   .previous-work-container,
   .cart-container,
   .daw-container{
-    font-size: 5vw; 
+    font-size: 20px; 
     overflow: visible; 
     white-space: normal; 
   }
-}
 
-
-@media (max-width: 1070px){
-  .beats-container,
-  .previous-work-container,
-  .cart-container,
-  .daw-container{
-    font-size: 30px; 
+  .header{
+    height: 90px; 
   }
 }
 
 
-body{
-  padding-top: 90px; 
-  margin: 0; 
-}
