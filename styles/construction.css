@@ -38,13 +38,14 @@
 
 .buy-now {
   background-color: yellow; 
-  border: 1.5px solid orange; 
-  font-size: 20px; 
+  border: 2.1px solid orange; 
+  font-size: 22px; 
   font-family: 'Chivo Mono', sans-serif; 
   border-radius: 10px; 
   cursor: pointer; 
   padding: 4px 15px;
   margin-bottom: 30px; 
+  transition: 0.2s background-color; 
 }
 
 .buy-now:hover {
