@@ -1,0 +1,71 @@
+.body-text{
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  left: 0; 
+  bottom: 0; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  font-family: 'Chivo Mono', sans-serif;
+  font-size: 50px; 
+  line-height: 50px; 
+  
+}
+
+.go-back{
+  margin-top: 20px; 
+}
+
+.js-cart-items {
+  background-color: rgb(149, 218, 149); 
+}
+
+.heading {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+.beat-count{
+  text-align: center; 
+  font-family: 'Chivo Mono', sans-serif; 
+  font-size: 30px; 
+  font-weight: bold; 
+  margin-right: 10px; 
+}
+
+.buy-now {
+  background-color: yellow; 
+  border: 1.5px solid orange; 
+  font-size: 20px; 
+  font-family: 'Chivo Mono', sans-serif; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  padding: 4px 15px;
+  margin-bottom: 30px; 
+}
+
+.buy-now:hover {
+  background-color: orange; 
+}
+
+.buy-now:active {
+  opacity: 0.8; 
+}
+
+.remove-from-cart {
+  width: 85px; 
+  height: 70px; 
+  cursor: pointer; 
+
+}
+
+.remove-from-cart:hover {
+  opacity: 0.8; 
+}
+
+.remove-from-cart:active {
+  opacity: 0.6; 
+}

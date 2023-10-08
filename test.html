@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search and Remove Divs</title>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
+    </div>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <!-- Add more divs as needed -->
+    </div>
+    <script>
+// Get references to the input field, search button, and container of divs
+const searchInput = document.getElementById('search-input'); //input area
+const searchButton = document.getElementById('search-button'); //use enter instead
+const container = document.querySelector('.container');
+
+// Function to perform the search and hide divs that don't match the query
+function performSearch(query) {
+    const divs = container.querySelectorAll('.item');
+
+    divs.forEach((div) => {
+        const text = div.textContent.toLowerCase();
+        if (text.includes(query.toLowerCase())) {
+            // Show the div if it contains the query
+            div.style.display = 'block';
+        } else {
+            // Hide the div if it does not contain the query
+            div.style.display = 'none';
+        }
+    });
+}
+
+// Event listener for the Enter key in the input field
+searchInput.addEventListener('keypress', (event) => {
+    if (event.key === 'Enter') {
+        const query = searchInput.value;
+        performSearch(query);
+    }
+});
+    
+    </script>
+</body>
+</html>

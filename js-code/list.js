@@ -1,7 +1,11 @@
 export let list = [{
   name: 'ROLLING',
   sample: true,
-  source: 'https://www.youtube.com/embed/GnTBCr7HYII'
+  source: 'https://www.youtube.com/embed/HSnbrgX7xGU'
+}, {
+  name: 'sparkle',
+  sample: true,
+  source: 'https://www.youtube.com/embed/XSWrM4oSaDs'
 }, {
   name: 'TOGETHER',
   sample: true, 
