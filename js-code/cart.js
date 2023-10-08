@@ -1,6 +1,6 @@
 import { leave } from "./add-to-cart.js"
 
-export function bye() { 
+function bye() { 
   const newContainer = document.querySelector('.js-cart-items');
   let count = 0; 
   leave().forEach((item) => {
