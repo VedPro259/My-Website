@@ -1,7 +1,6 @@
 import { leave } from "./add-to-cart.js"
 
 export function bye() { 
-  let hi = JSON.parse(localStorage.getItem('hi')) || null;
   const newContainer = document.querySelector('.js-cart-items');
   let count = 0; 
   leave().forEach((item) => {
